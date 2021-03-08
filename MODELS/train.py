@@ -22,7 +22,7 @@ showing_data_num = 1
 [filename, dataset, is_VAE, is_GCN, latent_dim, epoch, GPU_NUM] = sys.argv
 [is_VAE, is_GCN, latent_dim, epoch] = list(map(int,[is_VAE, is_GCN, latent_dim, epoch]))
 
-#os.environ["CUDA_VISIBLE_DEVICES"]='1'#GPU_NUM
+os.environ["CUDA_VISIBLE_DEVICES"]=GPU_NUM
 
 saving_path = '../OUTPUTS/'+dataset
 data_path = '../DATAS/'+dataset

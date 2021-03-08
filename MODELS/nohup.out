@@ -1,0 +1,264 @@
+2021-03-07 16:04:01.530122: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-07 16:04:44.504022: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-07 16:04:44.526748: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:04:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-07 16:04:44.526906: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-07 16:04:44.527636: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-07 16:04:44.530827: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-07 16:04:44.531346: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-07 16:04:44.533298: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-07 16:04:44.534204: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-07 16:04:44.538691: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-07 16:04:44.538749: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-07 16:04:44.586064: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-07 16:04:44.589296: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4e207a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-07 16:04:44.589348: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-07 16:04:44.593093: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-07 16:04:44.593134: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+2021-03-07 16:07:55.443100: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-07 16:08:39.879101: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-07 16:08:39.905654: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:05:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-07 16:08:39.905715: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-07 16:08:39.905957: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-07 16:08:39.907561: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-07 16:08:39.907883: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-07 16:08:39.909929: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-07 16:08:39.910777: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-07 16:08:39.915214: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-07 16:08:39.915250: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-07 16:08:39.936293: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-07 16:08:39.938797: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4250000 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-07 16:08:39.938844: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-07 16:08:39.941681: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-07 16:08:39.941713: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+2021-03-07 16:11:54.326639: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-07 16:12:26.076605: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-07 16:12:32.310063: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-07 16:12:37.040896: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-07 16:12:37.105960: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:08:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-07 16:12:37.106031: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-07 16:12:37.106265: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-07 16:12:37.108068: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-07 16:12:37.108373: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-07 16:12:37.110920: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-07 16:12:37.112886: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-07 16:12:37.118669: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-07 16:12:37.118728: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-07 16:12:37.154885: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-07 16:12:37.159796: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x58a4f80 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-07 16:12:37.159852: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-07 16:12:37.163043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-07 16:12:37.163094: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-07 16:13:12.218680: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-07 16:13:12.287994: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:09:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-07 16:13:12.288226: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-07 16:13:12.288922: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-07 16:13:12.291663: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-07 16:13:12.292439: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-07 16:13:12.294882: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-07 16:13:12.296091: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-07 16:13:12.300932: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-07 16:13:12.300997: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-07 16:13:12.354259: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-07 16:13:12.361734: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e4db0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-07 16:13:12.361842: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-07 16:13:12.364656: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-07 16:13:12.364703: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-07 16:13:20.258290: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-07 16:13:20.295762: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:89:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-07 16:13:20.295854: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-07 16:13:20.296079: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-07 16:13:20.297862: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-07 16:13:20.298227: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-07 16:13:20.300601: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-07 16:13:20.301472: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-07 16:13:20.310032: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-07 16:13:20.310104: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-07 16:13:20.362126: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-07 16:13:20.364884: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4146250 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-07 16:13:20.364947: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-07 16:13:20.370590: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-07 16:13:20.370706: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+2021-03-07 16:14:58.458270: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-07 16:15:55.632403: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-07 16:15:55.715651: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:8a:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-07 16:15:55.715768: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-07 16:15:55.716322: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-07 16:15:55.720113: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-07 16:15:55.720831: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-07 16:15:55.725830: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-07 16:15:55.727967: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-07 16:15:55.735977: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-07 16:15:55.736082: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-07 16:15:55.779354: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-07 16:15:55.784562: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x559e3a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-07 16:15:55.784643: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-07 16:15:55.787394: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-07 16:15:55.787457: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+2021-03-08 00:16:45.865206: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-08 00:16:54.377093: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-08 00:17:00.675126: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-08 00:17:04.899949: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-08 00:17:17.723987: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-08 00:17:23.733915: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-08 00:17:43.994191: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-08 00:17:44.029655: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:04:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-08 00:17:44.029776: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-08 00:17:44.030265: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-08 00:17:44.034975: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-08 00:17:44.036935: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-08 00:17:44.041101: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-08 00:17:44.043988: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-08 00:17:44.049624: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-08 00:17:44.049682: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-08 00:17:44.103013: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-08 00:17:44.108995: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x44807d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-08 00:17:44.109096: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-08 00:17:44.119233: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-08 00:17:44.119387: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-08 00:17:51.495147: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-08 00:17:51.538431: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:04:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-08 00:17:51.538648: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-08 00:17:51.539205: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-08 00:17:51.542610: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-08 00:17:51.543294: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-08 00:17:51.546809: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-08 00:17:51.548696: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-08 00:17:51.557002: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-08 00:17:51.557296: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-08 00:17:51.610254: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-08 00:17:51.637653: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x51a03b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-08 00:17:51.637911: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-08 00:17:51.662648: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-08 00:17:51.662730: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-08 00:17:54.226620: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-08 00:17:54.269078: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:05:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-08 00:17:54.269153: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-08 00:17:54.269375: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-08 00:17:54.272320: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-08 00:17:54.273197: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-08 00:17:54.276843: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-08 00:17:54.279101: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-08 00:17:54.286860: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-08 00:17:54.286937: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-08 00:17:54.321791: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-08 00:17:54.332711: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x412a2c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-08 00:17:54.332798: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-08 00:17:54.350196: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-08 00:17:54.350287: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-08 00:18:01.633709: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-08 00:18:01.664414: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:05:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-08 00:18:01.664556: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-08 00:18:01.665009: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-08 00:18:01.667355: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-08 00:18:01.667876: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-08 00:18:01.670532: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-08 00:18:01.673145: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-08 00:18:01.692996: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-08 00:18:01.693077: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-08 00:18:01.780988: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-08 00:18:01.803499: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x538e3f0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-08 00:18:01.803582: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-08 00:18:01.805728: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-08 00:18:01.805814: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-08 00:18:14.373985: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-08 00:18:14.410898: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:08:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-08 00:18:14.411093: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-08 00:18:14.411535: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-08 00:18:14.414973: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-08 00:18:14.416201: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-08 00:18:14.419346: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-08 00:18:14.422303: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-08 00:18:14.430999: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-08 00:18:14.431085: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-08 00:18:14.482590: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-08 00:18:14.503488: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x592e5f0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-08 00:18:14.503604: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-08 00:18:14.510996: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-08 00:18:14.511357: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
+WARNING:tensorflow:From /home/serverrepairman/Graph_AutoEncoder_with_GCMC/MODELS/layers.py:17: Layer.add_variable (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2021-03-08 00:18:24.531246: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-03-08 00:18:24.571778: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:08:00.0 name: Tesla K40c computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 268.58GiB/s
+2021-03-08 00:18:24.571895: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-03-08 00:18:24.572230: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.2/lib64:
+2021-03-08 00:18:24.576326: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-03-08 00:18:24.578584: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-03-08 00:18:24.583100: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-03-08 00:18:24.584104: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-03-08 00:18:24.593803: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-03-08 00:18:24.594155: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-03-08 00:18:24.691423: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2799980000 Hz
+2021-03-08 00:18:24.694357: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x60c0c90 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-03-08 00:18:24.694423: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-03-08 00:18:24.697733: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-08 00:18:24.697864: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      
